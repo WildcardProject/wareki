@@ -1,0 +1,29 @@
+{
+    "name": "programming_cat/wareki",
+    "description": "Convert year to Japanese year description",
+    "type": "library",
+    "require": {
+		"php": ">=5.5.9"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "T.Yamazaki",
+            "email": "takanori@it-gypsy.jp"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "programming_cat\\Wareki\\": "src"
+        }
+    },
+	"scripts": {
+		"test": [
+			"vendor/bin/phpunit --testsuite all"
+		]
+	}
+}
